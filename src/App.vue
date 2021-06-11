@@ -2,16 +2,19 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <AlanRails/>
+    <Character/>
+    <Character/>
   </div>
 </template>
 
 <script>
 import AlanRails from './components/AlanRails.vue'
-
+import Character from './components/Character.vue'
 export default {
   name: 'App',
   components: {
-    AlanRails
+    AlanRails,
+    Character
   }
 }
 </script>
